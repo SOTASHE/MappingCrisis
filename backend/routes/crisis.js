@@ -15,7 +15,6 @@ router.post("/", async (req, res) => {
 });
 
 //Get all crisis
-
 router.get("/", async (req, res) => {
   try {
     const crisis = await Crisis.find();
