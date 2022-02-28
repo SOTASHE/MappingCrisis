@@ -7,24 +7,18 @@ const CrisisRoute = require("./routes/crisis");
 
 dotenv.config();
 
-
-
 app.use(express.json());
 
-mongoose 
- .connect(encodeURI(process.env.MONGO_URL),
- {
-
-
+mongoose
+  .connect(encodeURI(process.env.MONGO_URL), {
     useNewUrlParser: true,
     useUnifiedTopology: true,
- }
- )   
- .then(() => console.log("MongoDB connected!"))
- .catch(err => console.log(err));
+  })
+  .then(() => console.log("MongoDB connected!"))
+  .catch((err) => console.log(err));
 
 app.use("/api/users", userRoute);
- app.use("/api/crisis", CrisisRoute);
+app.use("/api/crisis", CrisisRoute);
 
 app.listen(8800, () => {
   console.log("Backend server is running!");
