@@ -56,19 +56,19 @@ to install dependencies for backend
 - You can get these by
      Creating Mongo DB https://account.mongodb.com/account/login?       n=%2Fv2%2F6202fdff202c3f47248e22e6&nextHash=%23metrics%2FreplicaSet%2F621bc8efcad26071f1067943%2Fexplorer%2FMapping_Crisis%2Fcrisis%2Ffind
        
-       -cd backend
+        cd backend
    
-      - npm install
-      - npm start
+        npm install
+        npm start
 
 
 
 ### To run the front end
-    - cd frontend
+      cd frontend
 
 
-      - npm install
-      - npm start
+        npm install
+         npm start
 
 ##### Note that you need to have backend running while running the front
 
