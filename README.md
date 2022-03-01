@@ -68,6 +68,10 @@ to install dependencies for backend
 
 
 ### To run the front end
+  - You can go to inside app.js 
+  - and replace  mapboxApiAccessToken=" mapboxApiAccessToken="pk.eyJ1Ijoic25heWUtc290YXNoZSIsImEiOiJjbDA2MHN4dTEwYzR5M2pubmk0Mmo2aDk3In0.LxXpxLF9MffWbjrL-_ZJLA" 
+     with your own mapbox api token
+     
       cd frontend
 
 
