@@ -47,7 +47,7 @@ I will host the Live version(using Heroku if time allows me):
 - NodeJS/NPM
 - First, clone the project repository
 - cd to backend
-- Run #### npm install 
+- Run npm install 
 to install dependencies for backend
 - npm install
 - Create Mongo DB https://account.mongodb.com/account/login?n=%2Fv2%2F6202fdff202c3f47248e22e6&nextHash=%23metrics%2FreplicaSet%2F621bc8efcad26071f1067943%2Fexplorer%2FMapping_Crisis%2Fcrisis%2Ffind
