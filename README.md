@@ -77,11 +77,11 @@ to install dependencies for backend
      
 - with your own mapbox api token, use this link https://www.mapbox.com/ to create your own. But you can still use mine. It's free to use
      
-      cd frontend
+        cd frontend
 
 
         npm install
-         npm start
+        npm start
 
 ##### Note that you need to have backend running while running the front
 
