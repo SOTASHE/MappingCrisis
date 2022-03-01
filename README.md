@@ -73,7 +73,7 @@ to install dependencies for backend
 ### To run the front end
   - You can go to inside app.js 
    and replace  
-   ###### mapboxApiAccessToken=" mapboxApiAccessToken="pk.eyJ1Ijoic25heWUtc290YXNoZSIsImEiOiJjbDA2MHN4dTEwYzR5M2pubmk0Mmo2aDk3In0.LxXpxLF9MffWbjrL-_ZJLA" ""
+   ###### mapboxApiAccessToken="pk.eyJ1Ijoic25heWUtc290YXNoZSIsImEiOiJjbDA2MHN4dTEwYzR5M2pubmk0Mmo2aDk3In0.LxXpxLF9MffWbjrL-_ZJLA" 
      
 - with your own mapbox api token, use this link https://www.mapbox.com/ to create your own. But you can still use mine. It's free to use
      
