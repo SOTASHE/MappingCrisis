@@ -55,6 +55,8 @@ to install dependencies for backend
 - Create a .env file and fill it with your MongoDB API key
 - You can get these by
      Creating Mongo DB https://account.mongodb.com/account/login?       n=%2Fv2%2F6202fdff202c3f47248e22e6&nextHash=%23metrics%2FreplicaSet%2F621bc8efcad26071f1067943%2Fexplorer%2FMapping_Crisis%2Fcrisis%2Ffind
+     
+     - To run the backend
        
         cd backend
    
