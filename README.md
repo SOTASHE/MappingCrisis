@@ -44,8 +44,19 @@ I will host the Live version(using Heroku if time allows me):
 
 ### Want to run your own instance of the app?  The requirements to build from source are:
 
+
 - NodeJS/NPM
 - First, clone the project repository
+
+
+### Running both frontend and backend concurrently:
+   simple run the following:
+           
+             cd backend
+             npm install
+             npm run dev
+   The above scripts will run both frontend and backend at the same time. I have nested frontend inside the backend folder.
+
 
 ### To run the backend
 
@@ -82,6 +93,13 @@ to install dependencies for backend
 
         npm install
         npm start
+        
+        
+        
+        
+        
+ 
+        
 
 ##### Note that you need to have backend running while running the front
 
