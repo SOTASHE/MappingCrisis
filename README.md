@@ -44,7 +44,25 @@ I will host the Live version(using Heroku if time allows me):
 
 ### Want to run your own instance of the app?  The requirements to build from source are:
 
+# I have include my API keys in the code just so you wont have to setting up. But you can follow the following to generate your own API keys:
 
+
+- Create Mongo DB https://account.mongodb.com/account/login?n=%2Fv2%2F6202fdff202c3f47248e22e6&nextHash=%23metrics%2FreplicaSet%2F621bc8efcad26071f1067943%2Fexplorer%2FMapping_Crisis%2Fcrisis%2Ffind
+- Coonect to mongo db using your own Mongo API KEY,  Choose a connection method by selecting Connect your application. You will get the api key 
+- Create a .env file and fill it with your MongoDB API key
+- inside .env file put Mongo API key in the variable
+    ###### MONGO_URL= "  "
+- You can get these by
+     Creating Mongo DB https://account.mongodb.com/account/login?       n=%2Fv2%2F6202fdff202c3f47248e22e6&nextHash=%23metrics%2FreplicaSet%2F621bc8efcad26071f1067943%2Fexplorer%2FMapping_Crisis%2Fcrisis%2Ffind
+     
+ 
+ - You can go to inside app.js 
+   and replace  
+   ###### mapboxApiAccessToken="pk.eyJ1Ijoic25heWUtc290YXNoZSIsImEiOiJjbDA2MHN4dTEwYzR5M2pubmk0Mmo2aDk3In0.LxXpxLF9MffWbjrL-_ZJLA" 
+     
+- with your own mapbox api token, use this link https://www.mapbox.com/ to create your own. But you can still use mine. It's free to use.
+
+     
 - NodeJS/NPM
 - First, clone the project repository
 
@@ -58,35 +76,19 @@ I will host the Live version(using Heroku if time allows me):
    The above scripts will run both frontend and backend at the same time. I have nested frontend inside the backend folder.
 
 
+
+
+ ### If yopu wanna run frontend and backend seperatly, do the following.
+  
 ### To run the backend
 
-- cd to backend
-- Run npm install 
-to install dependencies for backend
-- npm install
-- Create Mongo DB https://account.mongodb.com/account/login?n=%2Fv2%2F6202fdff202c3f47248e22e6&nextHash=%23metrics%2FreplicaSet%2F621bc8efcad26071f1067943%2Fexplorer%2FMapping_Crisis%2Fcrisis%2Ffind
-- Coonect to mongo db using your own Mongo API KEY,  Choose a connection method by selecting Connect your application. You will get the api key 
-- Create a .env file and fill it with your MongoDB API key
-- inside .env file put Mongo API key in the variable
-    ###### MONGO_URL= "  "
-- You can get these by
-     Creating Mongo DB https://account.mongodb.com/account/login?       n=%2Fv2%2F6202fdff202c3f47248e22e6&nextHash=%23metrics%2FreplicaSet%2F621bc8efcad26071f1067943%2Fexplorer%2FMapping_Crisis%2Fcrisis%2Ffind
-     
- 
-       
-        cd backend
-   
-        npm install
-        npm start
+            cd backend
+            npm install 
+            npm start
 
 
 
 ### To run the front end
-  - You can go to inside app.js 
-   and replace  
-   ###### mapboxApiAccessToken="pk.eyJ1Ijoic25heWUtc290YXNoZSIsImEiOiJjbDA2MHN4dTEwYzR5M2pubmk0Mmo2aDk3In0.LxXpxLF9MffWbjrL-_ZJLA" 
-     
-- with your own mapbox api token, use this link https://www.mapbox.com/ to create your own. But you can still use mine. It's free to use
      
         cd frontend
 
@@ -99,9 +101,8 @@ to install dependencies for backend
         
         
  
-        
 
-##### Note that you need to have backend running while running the front
+
 
 
 
