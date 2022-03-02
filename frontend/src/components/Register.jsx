@@ -3,6 +3,7 @@ import axios from "axios";
 import { useRef, useState } from "react";
 import "./register.css";
 
+//Registration UI
 export default function Register({ setShowRegister }) {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);

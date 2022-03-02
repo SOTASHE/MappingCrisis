@@ -15,13 +15,6 @@ import Login from "./components/Login";
 export default function App() {
   const [crisis, setCrisis] = useState([]);
 
-  //const currentUser = "ANDI";
-
-  // const myStorage = window.localStorage;
-  // const [currentUsername, setCurrentUsername] = useState(
-  //  myStorage.getItem("user")
-  // / );
-
   const myStorage = window.localStorage;
   const [currentUsername, setCurrentUsername] = useState(
     myStorage.getItem("user")
@@ -132,15 +125,6 @@ export default function App() {
                 />
               </Marker>
 
-              {/* <Marker
-            latitude={-29.8578}
-            longitude={31.0342}
-            offsetLeft={-20}
-            offsetTop={-10}
-          >
-            <Room style={{ fontSize: viewport.zoom * 7, color: "slateblue" }} />
-          </Marker> */}
-
               {crisis._id === currentPlaceId && (
                 <Popup
                   key={crisis._id}
@@ -153,7 +137,7 @@ export default function App() {
                 >
                   <div className="card">
                     <label>Crisis Tag</label>
-                    <h4 className="place">{crisis.title}</h4>
+                    <h4 className="place">{crisis.tag}</h4>
                     <label>Description</label>
                     <p className="desc">{crisis.desc}</p>
 
