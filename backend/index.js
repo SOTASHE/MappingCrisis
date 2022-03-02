@@ -20,6 +20,6 @@ mongoose
 app.use("/api/users", userRoute);
 app.use("/api/crisis", CrisisRoute);
 
-app.listen(8800, () => {
+app.listen(5000, () => {
   console.log("Backend server is running!");
 });

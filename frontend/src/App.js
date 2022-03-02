@@ -143,23 +143,25 @@ export default function App() {
 
               {crisis._id === currentPlaceId && (
                 <Popup
+                  key={crisis._id}
                   latitude={crisis.lat}
                   longitude={crisis.long}
-                  anchor="left"
+                  closeButton={true}
+                  closeOnClick={false}
                   onClose={() => setCurrentPlaceId(null)}
+                  anchor="left"
                 >
                   <div className="card">
-                    <label> {crisis.tag} </label>
-                    <h1 className="crisis"> Fire </h1>
-                    <label className="desc"> {crisis.desc} </label>
+                    <label>Crisis Tag</label>
+                    <h4 className="place">{crisis.title}</h4>
+                    <label>Description</label>
+                    <p className="desc">{crisis.desc}</p>
 
-                    <p> Durban area is on fire</p>
-                    <label> Information </label>
-
+                    <label>Information</label>
                     <span className="username">
-                      Reported by <b>{crisis.username}</b>
+                      Created by <b>{crisis.username}</b>
                     </span>
-                    <span className="date"> {format(crisis.createdAt)} </span>
+                    <span className="date">{format(crisis.createdAt)}</span>
                   </div>
                 </Popup>
               )}
