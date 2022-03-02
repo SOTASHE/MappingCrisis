@@ -44,7 +44,7 @@ I will host the Live version(using Heroku if time allows me):
 
 ### Want to run your own instance of the app?  The requirements to build from source are:
 
-# I have include my API keys in the code just so you wont have to setting up. But you can follow the following to generate your own API keys:
+## I have included my API keys in the code just so you wont have to be setting up stuff. But you still can follow the following to generate your own API keys:
 
 
 - Create Mongo DB https://account.mongodb.com/account/login?n=%2Fv2%2F6202fdff202c3f47248e22e6&nextHash=%23metrics%2FreplicaSet%2F621bc8efcad26071f1067943%2Fexplorer%2FMapping_Crisis%2Fcrisis%2Ffind
@@ -67,7 +67,7 @@ I will host the Live version(using Heroku if time allows me):
 - First, clone the project repository
 
 
-### Running both frontend and backend concurrently:
+## Running both frontend and backend concurrently:
    simple run the following:
            
              cd backend
@@ -78,7 +78,7 @@ I will host the Live version(using Heroku if time allows me):
 
 
 
- ### If yopu wanna run frontend and backend seperatly, do the following.
+ ## If you wanna run frontend and backend seperatly, do the following.
   
 ### To run the backend
 
@@ -88,7 +88,7 @@ I will host the Live version(using Heroku if time allows me):
 
 
 
-### To run the front end
+### To run the frontend
      
         cd frontend
 
