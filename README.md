@@ -1,7 +1,7 @@
 ﻿# MappingCrisis
 
 
-live version: ## https://fathomless-meadow-32059.herokuapp.com/
+## live version:  https://fathomless-meadow-32059.herokuapp.com/
 
 
 Reeact.js - Node.js Full-stack mapping crisis app 
