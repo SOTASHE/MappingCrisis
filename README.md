@@ -6,7 +6,7 @@
 ### How it works?
 
 User Flow:
-- Register with your username, email, password ( I have made it simple that you can put any gmail and password must be a minimum of 6 strings)
+- Register with your username, email, password ( I have made it simple that you can put any gmail and password, must be a minimum of 6 strings)
 - After registered, allow browser to store your username and password for the next visit.
 - Login on the system with your username and password
 - When you have login, you will see crisis from other users marked purple.
