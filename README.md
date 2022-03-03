@@ -1,5 +1,5 @@
 ﻿# MappingCrisis
-eeact.js - Node.js Full-stack mapping crisis app 
+React.js - Node.js Full-stack mapping crisis app 
 
 - Users can add crisis in their location and report, also share with other users.
 
