@@ -1,6 +1,7 @@
 ﻿# MappingCrisis
 
 
+live version: ## https://fathomless-meadow-32059.herokuapp.com/
 
 
 Reeact.js - Node.js Full-stack mapping crisis app 
@@ -37,7 +38,7 @@ and
 
 
 
-I will host the Live version(using Heroku if time allows me):
+
 
 
 
