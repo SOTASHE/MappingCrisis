@@ -3,6 +3,16 @@
 
 ## live version:  https://fathomless-meadow-32059.herokuapp.com/
 
+###How it works?
+
+User Flow:
+- Register with your username, email, password ( I have made it simple that you can put any gmail and password must be a minimum of 6 strings)
+- After registered, allow browser to store your username and password for the next visit.
+- Login on the system with your username and password
+- When you have login, you will see crisis from other users marked purple.
+- So you double click on your location and log crisis. Your Crisis will be marked Red and other users crisis will be purple.
+- You also have an option to logout
+
 
 Reeact.js - Node.js Full-stack mapping crisis app 
 
