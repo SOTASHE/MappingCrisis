@@ -1,4 +1,4 @@
-﻿﻿# MappingCrisis
+﻿# MappingCrisis
 
 Reeact.js - Node.js Full-stack mapping crisis app
 
@@ -35,7 +35,6 @@ Reeact.js - Node.js Full-stack mapping crisis app
 - Using React Local Storage to store data temporal
 - React Logout System using Local Storage
 
-I will host the Live version(using Heroku if time allows me):
 
 ### Want to run your own instance of the app? The requirements to build from source are:
 
