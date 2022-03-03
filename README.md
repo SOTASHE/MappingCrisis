@@ -3,7 +3,7 @@
 
 ## live version:  https://fathomless-meadow-32059.herokuapp.com/
 
-###How it works?
+### How it works?
 
 User Flow:
 - Register with your username, email, password ( I have made it simple that you can put any gmail and password must be a minimum of 6 strings)
