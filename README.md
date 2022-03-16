@@ -55,7 +55,6 @@ and
 
 ### Want to run your own instance of the app?  The requirements to build from source are:
 
-## I have included my API keys in the code just so you wont have to be setting up stuff. But you still can follow the following to generate your own API keys:
 
 
 - Create Mongo DB https://account.mongodb.com/account/login?n=%2Fv2%2F6202fdff202c3f47248e22e6&nextHash=%23metrics%2FreplicaSet%2F621bc8efcad26071f1067943%2Fexplorer%2FMapping_Crisis%2Fcrisis%2Ffind
@@ -69,7 +68,7 @@ and
  
  - You can go to inside app.js 
    and replace  
-   ###### mapboxApiAccessToken="pk.eyJ1Ijoic25heWUtc290YXNoZSIsImEiOiJjbDA2MHN4dTEwYzR5M2pubmk0Mmo2aDk3In0.LxXpxLF9MffWbjrL-_ZJLA" 
+   ###### mapboxApiAccessToken="  " 
      
 - with your own mapbox api token, use this link https://www.mapbox.com/ to create your own. But you can still use mine. It's free to use.
 
