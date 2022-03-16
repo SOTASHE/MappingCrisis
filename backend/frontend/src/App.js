@@ -101,7 +101,7 @@ export default function App() {
           <ReactMapGL
             {...viewport}
             onViewportChange={setViewport}
-            mapboxApiAccessToken="pk.eyJ1Ijoic25heWUtc290YXNoZSIsImEiOiJjbDA2MHN4dTEwYzR5M2pubmk0Mmo2aDk3In0.LxXpxLF9MffWbjrL-_ZJLA"
+            mapboxApiAccessToken=" "
             mapStyle="mapbox://styles/mapbox/streets-v11"
             mapStyle="mapbox://styles/snaye-sotashe/cl06q57at000315p3hc5r7m6o"
             onDblClick={handleAddClick}
