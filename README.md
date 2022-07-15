@@ -4,7 +4,7 @@ React.js - Node.js Full-stack mapping crisis app
 - Users can add crisis in their location and report, also share with other users.
 
 
-## live version:  https://fathomless-meadow-32059.herokuapp.com/
+
 
 ### How it works?
 
